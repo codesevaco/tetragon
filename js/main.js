@@ -408,3 +408,12 @@ jQuery(document).ready(function($) {
 
 
 });
+
+
+$(document).ready(function () {
+
+	setTimeout(function() {
+		$("div#preloader").fadeOut();
+	  }, 1000);
+
+});

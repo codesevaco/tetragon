@@ -24,7 +24,19 @@
   </head>
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
+    <div id="preloader">
+      <div class="loader-container">
+        <div class="holder">
+            <div class="box"></div>
+        </div>
+        <div class="holder">
+            <div class="box"></div>
+        </div>
+        <div class="holder">
+            <div class="box"></div>
+        </div>
+      </div>
+    </div>
     <a href="https://wa.me/919137976398">
       <img src="images/walogo.png" style="position: fixed; bottom: 3%; right: 3%; z-index: 500;">
     </a>
@@ -65,7 +77,7 @@
                   <li><a href="home-automation.html" class="nav-link">Home Automation</a></li>
                   <li><a href="about.html" class="nav-link">About</a></li>
                   <li><a href="contact.html" class="nav-link">Contact</a></li>
-                  <li><a href="#" class="nav-link">Download Brochure</a></li>
+                  <li><a href="downloads/dummy.pdf" class="nav-link" download>Download Brochure</a></li>
                 </ul>
               </nav>
             </div>
@@ -166,7 +178,7 @@
         </div>
         <div class="row">
           <a href="interior-design.html">
-          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="">
+          <div class="col-md-6 mb-4 col-lg-3" data-aos="fade-up" data-aos-delay="">
             <div class="service-29193 text-center">
               <span class="img-wrap mb-5">
                 <img src="fonts/flaticon/svg/004-blueprint.svg" alt="Image" class="img-fluid">
@@ -176,8 +188,19 @@
             </div>
           </div>
           </a>
+          <a href="exhibition-design.html">
+            <div class="col-md-6 mb-4 col-lg-3" data-aos="fade-up" data-aos-delay="">
+              <div class="service-29193 text-center">
+                <span class="img-wrap mb-5">
+                  <img src="fonts/flaticon/svg/004-blueprint.svg" alt="Image" class="img-fluid">
+                </span>
+                <h3 class="mb-4"><a href="#">Exhibition Design</a></h3>
+                <!-- <p>Lorem ipsum dolor sit ame adipisicing elit. Perspiciatis incidunt distinctio voluptate .</p> -->
+              </div>
+            </div>
+          </a>
           <a href="imported-furniture.html">
-          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-6 mb-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="service-29193 text-center">
               <span class="img-wrap mb-5">
                 <img src="fonts/flaticon/svg/002-kitchen.svg" alt="Image" class="img-fluid">
@@ -188,7 +211,7 @@
           </div>
           </a>
           <a href="home-automation.html">
-          <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-md-6 mb-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
             <div class="service-29193 text-center">
               <span class="img-wrap mb-5">
                 <img src="fonts/flaticon/svg/003-lamp.svg" alt="Image" class="img-fluid">
@@ -206,7 +229,7 @@
       <div class="container">
         <div class="row mb-5 align-items-center">
           <div class="col-md-7">
-            <h2 class="heading-39291 mb-0">Our Projects V1</h2>
+            <h2 class="heading-39291 mb-0">Our Projects</h2>
           </div>
           <div class="col-md-5 text-right">
             <p class="mb-0"><a href="all-projects.html" class="more-39291">View All Projects</a></p>
@@ -218,6 +241,9 @@
             <a class="nav-link active" id="interior-design-tab" data-toggle="tab" href="#interior-design" role="tab" aria-controls="interior-design" aria-selected="true">Interiror Design</a>
           </li>
           <li class="nav-item" role="presentation">
+            <a class="nav-link" id="exhibitions-tab" data-toggle="tab" href="#exhibitions" role="tab" aria-controls="exhibitions" aria-selected="false">Exhibitions</a>
+          </li>
+          <li class="nav-item" role="presentation">
             <a class="nav-link" id="imported-furniture-tab" data-toggle="tab" href="#imported-furniture" role="tab" aria-controls="imported-furniture" aria-selected="false">Imported Furniture</a>
           </li>
           <li class="nav-item" role="presentation">
@@ -226,6 +252,42 @@
         </ul>
         <div class="tab-content" id="myTabContent" style="margin: 3% 0;">
           <div class="tab-pane fade show active" id="interior-design" role="tabpanel" aria-labelledby="interior-design">
+            <!-- Interior Deisgn projects in tab start here -->
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="media-02819">
+                  <a href="#" class="img-link small"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Downside Up House</a></h3>
+                  <span>Mumbai, India</span>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="media-02819">
+                  <a href="#" class="img-link"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Downside Up House</a></h3>
+                  <span>Mumbai, India</span>
+                </div>
+              </div>
+    
+              <div class="col-lg-6">
+                <div class="media-02819">
+                  <a href="#" class="img-link"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Downside Up House</a></h3>
+                  <span>Mumbai, India</span>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="media-02819">
+                  <a href="#" class="img-link small"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Downside Up House</a></h3>
+                  <span>Mumbai, India</span>
+                </div>
+              </div>
+    
+            </div>
+            <!-- Interir Deisgn projects in tab end here -->
+          </div>
+          <div class="tab-pane fade show active" id="exhibitions" role="tabpanel" aria-labelledby="exhibitions">
             <!-- Interior Deisgn projects in tab start here -->
             <div class="row">
               <div class="col-lg-6">
@@ -273,7 +335,7 @@
       </div>
     </div>
 
-    <div class="site-section">
+    <div class="site-section d-none">
 
       <div class="container">
         <div class="row mb-5 align-items-center">
